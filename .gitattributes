@@ -1,0 +1,5 @@
+# Uncomment the following lines to use Git LFS for large model files
+# Make sure to install Git LFS first: https://git-lfs.github.com/
+# Then run: git lfs install && git lfs track "ml_models/*.pt" && git add .gitattributes
+
+# ml_models/*.pt filter=lfs diff=lfs merge=lfs -text

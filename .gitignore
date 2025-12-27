@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+env/
+venv/
+.env
+.env.*
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+media/*
+staticfiles/
+
+# Ultralytics / ML
+runs/
+*.log
+# Model files (.pt) are large: prefer Git LFS or releases. By default we IGNORE them
+ml_models/*.pt
+
+# If you use Git LFS to track model weights, add a .gitattributes file and remove the above ignore
+
+# Tests
+.pytest_cache/
+
+# Misc
+coverage.xml
+htmlcov/
